@@ -12,3 +12,8 @@ Cholesterol y azucares tiene una media y desviacion similares, pero en el caso d
 Fibra cuenta con un promedio de 0.8 y tiene la segun desviacion mas pequena entre todas las variables.
 Finalmente, de las categorias se puede saber que la categoria con mas entradas son las bebidas expresso, pero en conjunto los frappes ganan en cantidad
 ```
+
+## Conclusiones para la Actividad 3 - Mapas de color y boxplots
+```txt
+[insert act 3 conclus here]
+```
