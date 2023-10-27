@@ -36,3 +36,22 @@ Si las variables tienen diferentes escalas o rangos de valores, esto puede afect
 ¿Puedes encontrar grupos qué se parezcan? ¿Qué grupos son estos?
 Sí, es posible identificar grupos que muestran similitudes en los gráficos de dispersión según la proximidad de los puntos y la distribución de los datos. En el caso de los datos proporcionados, se observa una similitud entre los grupos de frapuchinos, blended coffee y blended creme en la relación entre proteínas y carbohidratos totales. Además, en la relación entre colesterol y azúcares, se observa una similitud general entre todos los grupos, lo que indica una posible relación lineal similar entre estos parámetros en todos los grupos.
 ```
+
+## Conclusiones para la Actividad 4 - Patrones con K-means
+```txt
+¿Qué para qué variables fue más conveniente usar: modelo linea o polilineal? Polilineal, para todas las variables daban mejores scores
+
+¿Crees que estos clusters puedan ser representativos de los datos? ¿Por qué? Puede que sean tipos de comida con un cierto tipo de metricas altas. Los grupos conseguidos estan disperos entre cierto rangos, que podrian ser considerados grandes. Puede que cada grupo tenga ciertas cualidades particulares.
+
+¿Cómo obtuviste el valor de k a usar? Viendo la grafica de silueta
+
+¿Los centros serían más representativos si usaras un valor más alto? ¿Más bajo? Seria menos representativos en cada lado, la grafica de silueta muestra que por mucho el mejor valor para k es 4
+
+¿Qué distancia tienen los centros entre sí? ¿Hay alguno que este muy cercano a otros? En ma mayoria de los casos donde los datos son menos anomalos, los centros representan de manera muy adecuada que las distancias entre puntos no son muy diferentes.
+
+¿Qué pasaría con los centros si tuviéramos muchos datos anómalos en el análisis de cajas y bigotes? Los centros estarian dispersos a zonas donde en principio no deberian de estar
+
+¿Qué puedes decir de los datos basándose en los centros de los clusters y en los modelos?
+
+Usan los colores de las graficas, los grupos 3 y 4 no son recomendables por sus altos grados de azucares y cholestorelos, mientras que el grupo 0 tal vez pudiera usar un poco mas en algunas metricas.
+```
